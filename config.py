@@ -2,6 +2,8 @@
 dev = True
 # Raise an error if no member_id is present on the request query params
 errorOnNoMemberId = False
+# use mock API
+useMock = True
 # The default member_id
 defaultMemberId = '1'
 # If should validate that every API response contains just the keys below

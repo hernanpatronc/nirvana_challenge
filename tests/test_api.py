@@ -7,6 +7,7 @@ from utils.strategies import strategies
 
 @pytest.fixture
 def app():
+    config.useMock = False
     yield flask_app
 
 
