@@ -5,6 +5,7 @@
 3. Run the project with "python api.py"
 4. If you want to add a strategy, follow the instructions in utils/strategies.py
 5. If you want to change the behaviour of the app (for instance, default strategy or changing the API's urls), change the config.py file
+6. For running the unit tests run "python -m pytest"
 
 This API implements two main endpoints (and some healthchecks):
 
